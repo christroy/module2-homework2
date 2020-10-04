@@ -2,17 +2,16 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: cursive ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header {
     padding: 20px 35px;
-    background-color: Black;
-    padding-left: 0px;
-    
+    background-color: blue;
+    padding-left: 0px;   
   }
   header h1 {
     font-weight: bold;
-  header nav ul li a {
+    header nav ul li a {
     margin: 0 10px;
     font-weight: lighter;
     font-size: 20px;
