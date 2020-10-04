@@ -4,18 +4,17 @@
 
 /*color palette*/
 :root {
-  --primary: rgb(36, 85, 175);
-  --secondary: rgb(160, 183, 197);
-  --tertiary: rgb(46, 52, 64);
-  --dark: rgba(28, 29, 33, 1);
-  --light: rgb(58, 89, 146);
+  --primary: rgb(170, 192, 218);
+  --secondary: rgb(41, 54, 44);
+  --tertiary: rgb(146, 159, 189);
+  --dark: rgb(19, 21, 29);
+  --light: rgb(137, 159, 201);
 }
 
 body{
   margin: 0;
   padding: 0;
   font-family: "'Times New Roman', Times, serif'";
-  color: var(--primary);
   background-color: var(--light);
   line-height: 1.5;
 }
@@ -89,7 +88,7 @@ main {
 }
 
 .hero-banner{
-  background-image: url("../images/skyline.jpeg");
+  background-image: url("../images/header\ background.jpg");
   min-height: 30vh;
   background-size: cover;
   background-position: center;
@@ -171,6 +170,7 @@ flex: 0 0 90%;
   grid-auto-flow: dense;
 }
 
+
 .grid-item {
   border: 5px solid var(--secondary);
   grid-column:  span 4;
@@ -188,6 +188,7 @@ flex: 0 0 90%;
 }
 
 /* feature first portfolio item */
+
 
 .grid-item:first-child {
   grid-column: span 8;
@@ -232,23 +233,23 @@ flex: 0 0 90%;
 /* start portfolio project images */
 
 .run-buddy {
-  background-image: url("..//images/run.jpg");
+  background-image: url("../images/surfs\ up.jpg");
 }
 
 .led-wall {
-  background-image: url("..//images/ledwall.jpg");
+  background-image: url("../images/ledwall.jpg");
 }
 
 .react-calc {
-  background-image: url("..//images/calculator.jpg");
+  background-image: url("https://media.wired.com/photos/5c83066025da7204699767c7/master/w_2560%2Cc_limit/calculator-1470.jpg.jpg");
 }
 
 .pastel-puzzles {
-  background-image: url("..//images/pastel.jpg");
+  background-image: url("../images/picture-perfect.jpeg");
 }
 
 .surf-report {
-  background-image: url("..//images/wave.jpg");
+  background-image: url("../images/surfs\ up.jpg");
 }
 
 /* end portfolio project images */

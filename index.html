@@ -1,77 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chris Podoba Portfolio</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
 </head>
-    <body>
-        <header>
-            <H1></H1>
-            <nav>
-                <ul>
-                    <li>
-                    <a href="#aboutme">About me</a>
-                    </li>
-                    <li>
-                    <a href="#work">Work</a>
-                    </li>
-                    <li>
-                    <a href="#contactme">Contact Me</a>
-                    </li>
-                    <li>
-                    <a href="#resume">Resume</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
 
-        <main>
-            <Section class="boxA">
-                <p>cool subtitle here</p>
-            </section>
-            <Section class="about-me" id="aboutme">
-                <h2>About Me</h2>
-                <p>My name is Chris Podoba. I am currently a Student at the University of Texas Austin 
-                    Web Development Bootcamp. 
-                </p>
-            </Section>
+<body>
+    <!--main logo / nav-->
 
-            <Secg
-                    <h4>Surf Report</h4>
-                    <p>MERN Stack</p>
-                </div>
-                </div>
-                <div class="grid-item box2">
-                    <div>
-                    <div>
-                    <h4>Surf Report</h4>
-                    <p>MERN Stack</p>
-                    </div>
-                    </div>
-                <div class="grid-item box3">
-                <span>
-                    <h4>Surf Report</h4>
-                    <p>MERN Stack</p>
-                </span>
-                </div>
-                <div class= "grid-item box4">
+    <header>
+        <h1>Christopher Podoba's Portfolio</h1>
+        <nav>
+            <a href="#about"><span>About Me</span></a>
+            <a href="#work"><span>Work</span></a>
+            <a href="#contact"><span>Contact Me</span></a>
+            <!--Link to resume-->
+            <a href="index.html"><span>Resume</span></a>
+        </nav>
+    </header>
+</body>
 
-                <span>
-                <h4>Surf Report</h4>
-                <p>MERN Stack</p>
-                </span>
+<!--test comment-->
+<!--hero banner-->
+
+<section class="hero-banner">
+    <div>
+        <h2>Changing Tomorrow Today!</h2>
+    </div>
+</section>
+
+<main class="page-wrapper">
+            <!--about me-->
+    <section class="page-section" id="about">
+        <h2>About Me</h2>
+        <div>
+            <img src="./images/headshot.jpg" alt="headshot"/>
+            <p>
+                University of Texas at Austin graduate 
+                with a degree in Economics and Business Administration 
+                and currently a student in The University of Texas Full Stack 
+                Web Developer Bootcamp.
+            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+               Similique molestiae totam nihil, aliquam recusandae itaque 
+               sed odit tenetur error ratione.</p>
+        </div>
+    </section>
+
+
+    <!--portfolio grid-->
+    <section class="page-section" id="work">
+        <h2>Work</h2>
+        <div class="grid-container">
+
+            <a href="#" class="grid-item surf-report">
+                <div>
+                    <h3> Surf Report</h3>
+                    <span>MERN Stack</span>
                 </div>
-                <div class= "grid-item box5">
-                <span>
-                <h4 >Surf Report</h4>
-                <p>MERN Stack</p>
-                </span>
+            </a>
+
+            <a href="#" class="grid-item led-wall">
+                <div>
+                    <h3>LED Wall</h3>
+                    <span>NOde/IoT</span>
                 </div>
-            </div>
-            </Sec>
-        </main>
-        <footer id='contactme'>
-    </body>
+            </a>
+
+            <a href="#" class="grid-item react-calc">
+                <div>
+                    <h3>Calculator</h3>
+                    <span>React/JavaScript/CSS</span>
+                </div>
+            </a>
+
+            <a href="#" class="grid-item pastel-puzzles">
+                <div>
+                    <h3>Pastel Puzzles</h3>
+                    <span>MERN Stack</span>
+                </div>
+            </a>
+
+            <a href="#" class="grid-item run-buddy">
+                <div>
+                    <h3>Run Buddy</h3>
+                    <span>HTML/CSS</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!--contact-->
+    <section class="page-section contact" id="contact">
+        <h2>
+            Contact Me
+        </h2>
+        <div>
+            <address>
+                <a href="tel:+12345678890">123.456.7890</a>
+                <a href="mailto:chrispodoba@gmail.com">Email</a>
+                <a href="   ">GitHub</a>
+                <a href="#">Twitter</a>
+            </address>
+        </div>
+    </section>
+</main>
+</body>
+
 </html>
