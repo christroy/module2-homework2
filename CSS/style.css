@@ -245,7 +245,7 @@ flex: 0 0 90%;
 }
 
 .pastel-puzzles {
-  background-image: url("https://thumbs.dreamstime.com/b/d-wallpaper-texture-jigsaw-puzzle-pieces-pastel-color-background-original-panel-will-turn-your-room-most-recent-153286137.jpg");
+  background-image: url("../images/pastel-puzzles.jpg");
 }
 
 .surf-report {
@@ -254,7 +254,7 @@ flex: 0 0 90%;
 
  /* end portfolio project images */
 
- 
+
 @media screen and (max-width: 980px) {
 
 }
