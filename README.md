@@ -12,5 +12,6 @@ the original repository for this project started to have problems and was delete
 this has been an incredibly difficult lesson for me  due to an unforseen emergency i had this week. 
 
 ScreenShot:   https://github.com/christroy/module2-homework2/issues/1
+
 screenshot submitted into a new issue under issues tab in repository.
 
