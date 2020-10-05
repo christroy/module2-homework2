@@ -23,7 +23,7 @@ h2 {
   font-size: 45px;
 }
 
-p {
+p { 
   margin: 0
 }
 
@@ -38,7 +38,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /*box shadow: 0 5px 35px rgba(146, 204, 206, 0.4)*/
+  box shadow: 0 5px 35px rgba(146, 204, 206, 0.4)
 }
 
 header h1 {
@@ -88,7 +88,7 @@ main {
 }
 
 .hero-banner{
-  background-image: url("../images/header\ background.jpg");
+  background-image: url("https://i2.wp.com/onaircode.com/wp-content/uploads/2019/08/zoom-out-background-image.png?resize=945%2C551&ssl=1");
   min-height: 30vh;
   background-size: cover;
   background-position: center;
@@ -230,30 +230,31 @@ flex: 0 0 90%;
   color: var(--primary);
 }
 
-/* start portfolio project images */
+                            /* start portfolio project images */
 
 .run-buddy {
   background-image: url("https://christroy.github.io/run-buddy/");
 }
 
 .led-wall {
-  background-image: url("https://image.freepik.com/free-vector/led-wall-video-screen-with-green-blue-red-dot-lights-black-background_107791-2986.jpg");
+  background-image: url("../images/ledwall.jpg");
 }
 
 .react-calc {
-  background-image: url("https://media.wired.com/photos/5c83066025da7204699767c7/master/w_2560%2Cc_limit/calculator-1470.jpg.jpg");
+  background-image: url("../images/calculator.jpg");
 }
 
 .pastel-puzzles {
-  background-image: url("../images/picture-perfect.jpeg");
+  background-image: url("https://thumbs.dreamstime.com/b/d-wallpaper-texture-jigsaw-puzzle-pieces-pastel-color-background-original-panel-will-turn-your-room-most-recent-153286137.jpg");
 }
 
 .surf-report {
-  background-image: url("https://safarisurfadventures.com/wp-content/uploads/background-surfing-07.jpg");
+  background-image: url("../images/surfs-up.jpg");
 }
 
-/* end portfolio project images */
+ /* end portfolio project images */
 
+ 
 @media screen and (max-width: 980px) {
 
 }

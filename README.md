@@ -9,6 +9,6 @@ This project is a body of work built to represent my knowledge and understanding
 the original repository for this project started to have problems and was deleted.
 
 this has been an incredibly difficult lesson for me  due to an unforseen emergency i had this week. 
-/Users/POLYMATH/Desktop/Screen Shot 2020-10-04 at 5.47.16 PM.png
 
+ScreenShot:   https://github.com/christroy/module2-homework2/issues/1
 screenshot submitted into a new issue under issues tab in repository.
