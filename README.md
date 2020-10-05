@@ -12,3 +12,4 @@ this has been an incredibly difficult lesson for me  due to an unforseen emergen
 
 ScreenShot:   https://github.com/christroy/module2-homework2/issues/1
 screenshot submitted into a new issue under issues tab in repository.
+
